@@ -25,3 +25,7 @@ Also, if we have 0, 1, 156 -th output of mt19937_64, we could predict the 312-th
 ## XorShift128+ (JavaScript in Chrome, Firefox, Node.js or any other V8 based platform)
 
 Check [@TACIXAT/XorShift128Plus](https://github.com/TACIXAT/XorShift128Plus/blob/master/xs128p.py) for detail.
+
+## Misc
+
+LCGs are not secure at all: https://tailcall.net/blog/cracking-randomness-lcgs/
