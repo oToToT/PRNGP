@@ -22,6 +22,8 @@ Just like mt19937, but we only need 312 output of mt19937_64 to recover the whol
 
 Also, if we have 0, 1, 156 -th output of mt19937_64, we could predict the 312-th output of mt19937_64.
 
+A predictor could be found in `mt19937_64/predictor.py`
+
 ## XorShift128+ (JavaScript in Chrome, Firefox, Node.js or any other V8 based platform)
 
 Check [@TACIXAT/XorShift128Plus](https://github.com/TACIXAT/XorShift128Plus/blob/master/xs128p.py) for detail.
