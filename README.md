@@ -14,7 +14,7 @@ If we have 624 output of mt19937, we could recover the whole state of mt19937.
 Also, if we have 0, 1, 397 -th output of mt19937, we could predict the 624-th output of mt19937.  
 For PHP, if we have 0, 397 -th output of mt19937, we could recover the whole state of mt19937. See [this post](https://www.ambionics.io/blog/php-mt-rand-prediction).
 
-A predictor could be found in `mt19937_64/predictor.py`
+A predictor could be found in `mt19937/predictor.py`
 
 ## mt19937_64 (C++)
 
