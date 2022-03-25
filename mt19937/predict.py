@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-std::mt19937_64 predictor
+std::mt19937 predictor
 """
 from typing import List
 
